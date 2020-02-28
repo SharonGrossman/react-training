@@ -1,25 +1,25 @@
-# Exercise 5 - Final Exercise
-
-### Prerequisites
-`Node.js training, MongoDB`
+# Exercise 4 - Web Mail :e-mail:
 
 ### Duration
 `4 days`
 
 ### Code Review
-`Trainer + 3`
+`Trainer + 2`
 
 ## Summary
-For this final exercise, a server written in Node.js joins the party!
+Now, add routing and forms to the mix!
 
 ### Guidelines
-`You get a full blown application now, with a React frontend and Node.js backend.
-Use the previous exercise Web Mail and add some backend logic to it`
+`Inbox & Outbox pages, as well as Login & Register. For now, use something like your User object stringified stored in the localStorage for authentication.`
+
+### Recommended modules
+`react-router, react-hook-form or formik`
 
 ## Tasks
-* Implement a Node.js REST API with the Mail model (Node.js training final exercise style)
-* Use MongoDB & Mongoose to represent and save your data
-* use axios to fetch data and post data to the client (as well as login and register) use a Jwt token now!
-* Make sure the state management and the data is properly placed up or down in your component hierarchy
-
+* Start with bootstrapping your routes?
+* How are you going to implement various different layouts of different zones in your app?
+* Make sure you have a Navbar
+* Every mail entity should have basic properites like Date, Author, Content etc.
+* State Management is key!
+* For now, data is static, use hard-coded data or import a json file
 

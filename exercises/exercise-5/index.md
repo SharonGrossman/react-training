@@ -1,24 +1,25 @@
-# Exercise 1 - Hello World :hand:
+# Exercise 5 - Final Exercise :muscle:
+
+### Prerequisites
+`Node.js training, MongoDB`
 
 ### Duration
-`1 day`
+`4 days`
 
 ### Code Review
-`Trainer + 1`
+`Trainer + 3`
 
 ## Summary
-In this first exercise, we are gonna focus on structuring a basic working React application.
-This will be the basic application template that you should use further in your training.
+For this final exercise, a server written in Node.js joins the party!
 
-### Recommended modules
-`Webpack, babel, ESLint`
+### Guidelines
+`You get a full blown application now, with a React frontend and Node.js backend.
+Use the previous exercise Web Mail and add some backend logic to it`
 
 ## Tasks
-* Create a simple application that shows "Hello World" in the browser
-* Configure Babel
-* Configure Webpack
-    * npm run dev - run the project in Development mode
-    * npm run build - should create a dist folder of the project
-* Configure ESLint and make sure you have appropriate npm scripts to utilize it
+* Implement a Node.js REST API with the Mail model (Node.js training final exercise style)
+* Use MongoDB & Mongoose to represent and save your data
+* use axios to fetch data and post data to the client (as well as login and register) use a Jwt token now!
+* Make sure the state management and the data is properly placed up or down in your component hierarchy
 
 
