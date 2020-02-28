@@ -9,6 +9,9 @@
 ## Summary
 In this exercise, we dive deeper into styling our React app and adding some logic -  Using intervals, state and a little bit of component seperation and folder hierarchy.
 
+### Guidelines
+`Did I hear react hooks?`
+
 ## Tasks
 * User Interface
     * Timer
